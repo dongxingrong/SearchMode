@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+    </style>
+
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 这个是给5.0使用的Style，其实完全可以在源代码中加判断这样就不需要多个style文件-->
+    <style name="AppThemes" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorPrimary">#ff0000</item>
+        <item name="colorPrimaryDark">#00ff00</item>
+        <item name="colorAccent">#ffffff</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- 这个是给4.4使用的Style，其实完全可以在源代码中加判断这样就不需要多个style文件-->
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorPrimary">#ff0000</item>
+        <item name="colorPrimaryDark">#00ff00</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="19">true</item> #这句话是关键，状态栏透明
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

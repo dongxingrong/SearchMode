@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#030303</color>
+    <color name="black_one">#5f5f5f</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="title_red">#e2073b</color>
+    <color name="transparent_red">#50e2073b</color>
+    <color name="search_hint_text">#bfbfbf</color>
+    <color name="tab_gray">#949494</color>
+    <color name="latest_show_home_fragment">#5b5b5b</color>
+    <color name="divider">#bfbfbf</color>
+    <color name="background_gray">#eeeeee</color>
+    <color name="background_gray_one">#50757575</color>
+    <color name="background_gray_two">#90757575</color>
+    <color name="yellow">#ffd700</color>
+    <color name="blue">#3205e7</color>
+</resources>
